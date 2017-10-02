@@ -5,12 +5,19 @@ and open the template in the editor.
 */
 /* 
     Created on : Oct 2, 2017, 9:26:19 AM
-    Author     : Kiran
+    Author     : kiran and daman
 */
 
 .navbar .navbar-nav {
     display: inline-block;
     float: none;
+}
+
+body {
+    background: url("../images/woodgrainlight.jpg");
+    background-repeat: repeat;
+
+   
 }
 
 .navbar .navbar-collapse {
@@ -22,8 +29,12 @@ and open the template in the editor.
     transform: translateX(-50%);
     top: -60px;
 }
-.navbar { 
-    margin-top: 80px;
+
+#bannerimage{
+    background-repeat: repeat-x;
+    background-image: url("image/TCMCbanner.jpg");
+    position: relative;
+  
 }
 .mt10{
     margin-top:10px;
@@ -38,6 +49,71 @@ and open the template in the editor.
     padding-bottom: 10px;
 }
 .bordered{
-    border:1px solid #006666 !important;
-    color:#009999;
+    border:1px solid #050505 !important;
+    color:#080808;
+    background-color: #E6DEDE;
+    border-radius: 5px;
 }
+
+.bordered-index{
+    border:1px solid #050505 !important;
+    color: #080808;
+    background-color: #EBF18E;
+}
+
+.bordered-about{
+    border:1px solid #050505 !important;
+    color: #080808;
+    background-color: #FFFFFF;
+}
+
+.bordered-bulletin1{
+    border:1px solid #050505 !important;
+    color: #0E0D0D;
+    background-color: #9AD4B7;
+}
+
+.bordered-bulletin2{
+    border:1px solid #050505 !important;
+    color: #0E0D0D;
+    background-color: #E9EB96;
+}
+
+.bordered-bulletin3{
+    border:1px solid #050505 !important;
+    color: #0E0D0D;
+    background-color: #B7E096;
+}
+
+.bordered-bulletin4{
+    border:1px solid #050505 !important;
+    color: #0E0D0D;
+    background-color: #C2C4C1;
+}
+
+
+
+
+
+h2 {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+footer{
+    background-color: #404636;
+    color: #E6DEDE;
+}
+.mr10{
+    margin-right: 10px;
+}
+ 
+h1 {
+    font-size: 140%;
+    text-align: center;
+    text-decoration: underline;  
+}
+#navbar{
+    text-align: center;
+}
+
